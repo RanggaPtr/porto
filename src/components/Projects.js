@@ -11,19 +11,22 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "IOT Development",
-      description: "Make with ESP32",
+      title: "IOT Development (ESP32)",
+      description: "Make Smart Planting Monitoring System",
       imgUrl: projImg1,
+      projectLink: "https://docs.google.com/presentation/d/17fBrAxsZkZPSzKF29W2-fzN9a1nB3aKOfpAOOzrHF3o/edit?usp=sharing"
     },
     {
-      title: "Full Stack Web Development",
+      title: "Full Stack Web Development (Laravel)",
       description: "Make Intership Web For Campus",
       imgUrl: projImg2,
+      projectLink: "https://magangin.tatadigital.id/"
     },
     {
-      title: "Frontend Web Development",
+      title: "Frontend Web Development (Next.js)",
       description: "Make Frontend Web For KAI",
       imgUrl: projImg3,
+      projectLink: "https://hacksphere.tatadigital.id/"
     },
     // {
     //   title: "Business Startup",

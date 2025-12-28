@@ -398,6 +398,38 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .project .nav.nav-pills .nav-link.active::before {
     width: 100% !important;
 }
+
+.project-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 22px;
+  border-radius: 999px;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+  background: linear-gradient(135deg, rgba(170, 54, 124, 0.9), rgba(74, 47, 189, 0.9));
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  box-shadow: 0 15px 35px rgba(74, 47, 189, 0.35);
+  transition: transform 200ms ease, box-shadow 200ms ease, background 200ms ease, border-color 200ms ease;
+}
+
+.project-btn:hover {
+  transform: translateY(-2px);
+  background: linear-gradient(135deg, rgba(170, 54, 124, 1), rgba(74, 47, 189, 1));
+  border-color: rgba(255, 255, 255, 0.4);
+  box-shadow: 0 18px 38px rgba(170, 54, 124, 0.45);
+}
+
+.project-btn:active {
+  transform: translateY(0);
+  box-shadow: 0 10px 18px rgba(74, 47, 189, 0.3);
+}
+
+.project-btn:focus-visible {
+  outline: 2px solid rgba(255, 255, 255, 0.6);
+  outline-offset: 3px;
+}
 .project .nav.nav-pills .nav-link.active {
     border: 1px solid rgba(255, 255, 255, 1);
 }
